@@ -24,18 +24,26 @@
    git clone https://github.com/rakinghiyat/Web_ADS-B_Project.git
    cd Web_ADS-B_Project
 2. Copy the environment file:
-cp env .env
-3. Configure your database credentials inside ```.env
-
-4.Run the development server:
-```php spark serve
-
+   ```bash
+   cp env .env
+3. Configure your database credentials inside `.env`
+4. Run the development server:
+   ```bash
+   php spark serve
 5. Access the app in your browser:
+   `http://localhost:8080`
 
-arduino
-http://localhost:8080
+## 🧪 Development Status
 
+📌 [In Progress] — The initial version is under active development, focusing on the management system and monitoring dashboard.
 
+## 🤝 Contributions
+
+Contributions are welcome! Feel free to open an issue or submit a pull request for new features, bug fixes, or documentation improvements.
+
+## 📄 License
+
+This project is licensed under the MIT License.
 
 
 
